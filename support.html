@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BetEdge — Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+      padding: 0 16px 60px;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a5f, #162d4a);
+      padding: 32px 24px;
+      text-align: center;
+      border-bottom: 1px solid #2d5a8e;
+      margin-bottom: 40px;
+    }
+    header h1 { font-size: 26px; font-weight: 700; color: #93c5fd; }
+    header p  { color: #64748b; font-size: 13px; margin-top: 6px; }
+    .container { max-width: 720px; margin: 0 auto; }
+    h2 {
+      font-size: 18px; font-weight: 700; color: #60a5fa;
+      margin-top: 36px; margin-bottom: 12px;
+      padding-bottom: 6px; border-bottom: 1px solid #1e3a5f;
+    }
+    p, li { font-size: 15px; color: #cbd5e1; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #1e293b; border: 1px solid #2d5a8e;
+      border-radius: 16px; padding: 24px; margin-bottom: 20px;
+    }
+    .card h3 { font-size: 16px; font-weight: 700; color: #93c5fd; margin-bottom: 8px; }
+    .btn {
+      display: inline-block; background: #1d4ed8; color: #ffffff;
+      padding: 12px 28px; border-radius: 12px; font-weight: 600;
+      font-size: 15px; margin-top: 8px; text-decoration: none;
+    }
+    .btn:hover { background: #2563eb; text-decoration: none; }
+    footer { text-align: center; color: #475569; font-size: 12px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Support BetEdge</h1>
+    <p>Application de suivi de paris sportifs</p>
+  </header>
+
+  <div class="container">
+
+    <h2>Questions fréquentes</h2>
+
+    <div class="card">
+      <h3>Comment configurer les alertes Telegram ?</h3>
+      <p>
+        1. Ouvrez Telegram et cherchez <strong>@userinfobot</strong><br>
+        2. Envoyez <code>/start</code> — notez votre <strong>Id :</strong><br>
+        3. Dans BetEdge → onglet Paramètres → collez votre Chat ID<br>
+        4. Appuyez sur "Tester la connexion" pour vérifier<br>
+        5. Ouvrez <strong>@Betedge_alerte_bot</strong> et envoyez <code>/start</code>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Pourquoi je ne reçois pas d'alertes ?</h3>
+      <p>
+        Le bot analyse les matchs à venir deux fois par jour (9h et 18h, heure de Paris).
+        Pour recevoir des alertes, vous devez avoir au moins <strong>2 paris gagnants</strong>
+        enregistrés dans l'application. Le bot ne déclenche une alerte que si le score
+        de similarité dépasse 60/100.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Comment mettre à jour le résultat d'un pari ?</h3>
+      <p>
+        Dans l'onglet <strong>Historique</strong>, appuyez sur un pari avec le statut
+        "En attente". La modale de résultat s'ouvre — entrez le score final et sélectionnez
+        le statut (Gagné / Perdu / Nul / Cashout). Le profit/perte est calculé automatiquement.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Puis-je modifier un résultat déjà saisi ?</h3>
+      <p>
+        Oui. Dans l'onglet <strong>Historique</strong>, appuyez sur n'importe quel pari
+        terminé — le bouton "Modifier le résultat" apparaît pour corriger une erreur de saisie.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>L'application est-elle liée à Winamax ou Betclic ?</h3>
+      <p>
+        Non. BetEdge est un outil de suivi personnel indépendant.
+        Il ne place aucun pari automatiquement et n'est affilié à aucun opérateur.
+        Vous placez vos paris manuellement sur la plateforme de votre choix.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Comment supprimer mon compte ?</h3>
+      <p>
+        Envoyez un e-mail à
+        <a href="mailto:professionnel.agregoire@gmail.com">professionnel.agregoire@gmail.com</a>
+        avec l'objet "Suppression compte BetEdge" depuis l'adresse associée à votre compte.
+        Votre compte et toutes vos données seront supprimés sous 7 jours ouvrés.
+      </p>
+    </div>
+
+    <h2>Contacter le support</h2>
+    <p>
+      Pour tout problème non couvert ci-dessus, contactez-nous par e-mail.
+      Nous répondons généralement sous 48h (jours ouvrés).
+    </p>
+    <a class="btn" href="mailto:professionnel.agregoire@gmail.com?subject=Support BetEdge">
+      Envoyer un e-mail
+    </a>
+
+    <h2>Jeu responsable</h2>
+    <p>
+      Les paris sportifs peuvent créer une dépendance.
+      Si vous ou l'un de vos proches êtes concerné, contactez
+      <a href="https://www.joueurs-info-service.fr" target="_blank" rel="noopener">
+        Joueurs Info Service
+      </a>
+      au <strong>09 74 75 13 13</strong> (gratuit, 7j/7, 8h–2h).
+    </p>
+
+    <footer>
+      <p>© 2025 BetEdge — Tous droits réservés</p>
+      <p style="margin-top:8px">
+        <a href="./index.html">Accueil</a> &nbsp;·&nbsp;
+        <a href="./privacy.html">Politique de confidentialité</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
